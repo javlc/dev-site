@@ -1,6 +1,8 @@
 ---
 const { content } = Astro.props;
 const { pageTitle, frontmatter } = Astro.props;
+
+import Navbar from "@components/Navbar.astro";
 ---
 
 <!DOCTYPE html>
@@ -13,6 +15,7 @@ const { pageTitle, frontmatter } = Astro.props;
     <title>{frontmatter?.title || pageTitle}</title>
   </head>
   <body>
+    <Navbar />
     <slot />
   </body>
 </html>

@@ -1,0 +1,31 @@
+---
+const items = [
+  {
+    title: "Home",
+    path: "/"
+  },
+  {
+    title: "Blog",
+    path: "/blog"
+  },
+  {
+    title: "About",
+    path: "/about"
+  },
+  {
+    title: "Contact",
+    path: "/contact"
+  },
+]
+---
+
+<div>
+  <div>Site logo</div>
+  <div>
+    <ul>
+      {items.map(item =>
+        (<li><a href={item.path}>{item.title}</a></li>)
+      )}
+    </ul>
+  </div>
+</div>
