@@ -1,5 +1,7 @@
 # build output
 dist/
+# generated types
+.astro/
 
 # dependencies
 node_modules/
@@ -20,10 +22,8 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+# jetbrains setting folder
+.idea/
+
+# drawio backups
+*.drawio.bkp
