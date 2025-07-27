@@ -1,8 +1,9 @@
 {
-  "name": "@example/with-tailwindcss",
+  "name": "dev-site",
   "type": "module",
   "version": "0.0.2",
   "private": true,
+  "description": "based off astro's @example/with-tailwindcss",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
