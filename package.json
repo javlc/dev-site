@@ -13,15 +13,15 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.2",
-    "@tailwindcss/vite": "^4.0.3",
+    "@tailwindcss/vite": "^4.2.2",
     "@types/canvas-confetti": "^1.9.0",
     "astro": "^6.0.8",
-    "canvas-confetti": "^1.9.3",
+    "canvas-confetti": "^1.9.4",
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
-    "prettier": "^3.5.1",
+    "prettier": "^3.8.1",
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.11"
+    "prettier-plugin-tailwindcss": "^0.7.2"
   }
 }
