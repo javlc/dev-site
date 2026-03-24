@@ -1,31 +1,43 @@
 ---
 const items = [
-  {
-    title: "Home",
-    path: "/"
-  },
-  {
-    title: "Blog",
-    path: "/blog"
-  },
-  {
-    title: "About",
-    path: "/about"
-  },
-  {
-    title: "Contact",
-    path: "/contact"
-  },
-]
+   {
+      title: 'Home',
+      path: '/',
+   },
+   {
+      title: 'Blog',
+      path: '/blog',
+   },
+   {
+      title: 'About',
+      path: '/about',
+   },
+   {
+      title: 'Contact',
+      path: '/contact',
+   },
+];
 ---
 
 <div>
-  <div>Site logo</div>
-  <div>
-    <ul>
-      {items.map(item =>
-        (<li><a href={item.path}>{item.title}</a></li>)
-      )}
-    </ul>
-  </div>
+   <div>
+      <ul class="flex">
+         <li class="basis-2/5">
+            <a href=""
+               ><img
+                  src="/logo.svg"
+                  alt="Aptus Technica. Click for home."
+                  class="logo"
+               /></a
+            >
+         </li>
+         {
+            items.map((item) => (
+               <li>
+                  <a href={item.path}>{item.title}</a>
+               </li>
+            ))
+         }
+      </ul>
+   </div>
 </div>

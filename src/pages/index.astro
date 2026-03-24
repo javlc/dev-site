@@ -1,20 +1,20 @@
 ---
 import '../styles/global.css';
 // Layout import
-import BaseLayout from "@layouts/BaseLayout.astro";
+import BaseLayout from '@layouts/BaseLayout.astro';
 // Component Imports
-import Button from "@components/Button.astro";
+import Button from '@components/Button.astro';
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
-const title = "My Astro + TailwindCSS";
+const title = 'My Astro + TailwindCSS';
 ---
 
 <BaseLayout pageTitle={title}>
-  <div class="grid place-items-center h-screen content-center">
-    <Button>Tailwind Button in Astro!</Button>
-    <a href="/markdown-page" class="p-4 underline"
-      >Markdown is also supported...</a
-    >
-  </div>
+   <div class="grid h-screen place-items-center content-center">
+      <Button>Tailwind Button in Astro!</Button>
+      <a href="/markdown-page" class="p-4 underline"
+         >Markdown is also supported...</a
+      >
+   </div>
 </BaseLayout>
