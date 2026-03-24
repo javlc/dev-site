@@ -1,0 +1,236 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="f1b7ffb7-ca1e-a977-7cf5-a751b3c06c05">
+    <mxGraphModel dx="1475" dy="1172" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="13" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;direction=south;" value="" vertex="1">
+          <mxGeometry height="374" width="964.98" x="120" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="2" parent="1" style="text;spacingTop=-5;fontSize=18;fontStyle=0" value="Site Name" vertex="1">
+          <mxGeometry height="20" width="94" x="172" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="line;strokeWidth=1" value="" vertex="1">
+          <mxGeometry height="10" width="964" x="120" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="line;strokeWidth=1" value="" vertex="1">
+          <mxGeometry height="10" width="964" x="120" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;spacingTop=-5;" value="Home" vertex="1">
+          <mxGeometry height="20" width="30" x="282" y="72.00000000000009" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="text;spacingTop=-5;" value="Services&#xa;" vertex="1">
+          <mxGeometry height="20" width="30" x="326.99999999999994" y="72.00000000000016" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="text;spacingTop=-5;" value="lang" vertex="1">
+          <mxGeometry height="20" width="30" x="1013" y="72.00000000000013" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="120" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="text;spacingTop=-5;align=center" value="Site&#xa;Logo" vertex="1">
+          <mxGeometry height="32" width="40" x="120" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="text;spacingTop=-5;" value="Work" vertex="1">
+          <mxGeometry height="20" width="30" x="383" y="72.00000000000026" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="text;spacingTop=-5;" value="Contact" vertex="1">
+          <mxGeometry height="20" width="30" x="424" y="72.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="8Srn6D0EAAtk5IkTcaqU-63" parent="1" style="text;spacingTop=-5;" value="Blog" vertex="1">
+          <mxGeometry height="20" width="30" x="476" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="8Srn6D0EAAtk5IkTcaqU-66" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=42;" value="Lorem ipsum&lt;br&gt;Heading - Title&lt;br&gt;And stuff" vertex="1">
+          <mxGeometry height="144" width="322" x="160" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="text;spacingTop=-5;whiteSpace=wrap;align=left;fontSize=17;" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &#xa;" vertex="1">
+          <mxGeometry height="101" width="444" x="588" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="8Srn6D0EAAtk5IkTcaqU-67" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;More info&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="120" x="586" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-27" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;arrowWidth=0.3333333333333333;arrowSize=0.5;" value="" vertex="1">
+          <mxGeometry height="24" width="12" x="688" y="349" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-28" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#b46504;gridSize=1,1;direction=south;fillColor=#fad7ac;" value="" vertex="1">
+          <mxGeometry height="374" width="964.98" x="120" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-29" parent="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" value="Services" vertex="1">
+          <mxGeometry height="40" width="100" x="128" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-33" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="84" width="294" x="131" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-31" parent="ecdvlNA3KvpTPgBAPyhw-33" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Service 1&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="84" width="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-32" parent="ecdvlNA3KvpTPgBAPyhw-33" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-34" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="84" width="294" x="440" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-35" parent="ecdvlNA3KvpTPgBAPyhw-34" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Service 2&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="84" width="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-36" parent="ecdvlNA3KvpTPgBAPyhw-34" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-37" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="84" width="294" x="777.98" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-38" parent="ecdvlNA3KvpTPgBAPyhw-37" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Service 3&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="84" width="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-39" parent="ecdvlNA3KvpTPgBAPyhw-37" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-40" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="84" width="294" x="131" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-41" parent="ecdvlNA3KvpTPgBAPyhw-40" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Service 4&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="84" width="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-42" parent="ecdvlNA3KvpTPgBAPyhw-40" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-43" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="84" width="294" x="440" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-44" parent="ecdvlNA3KvpTPgBAPyhw-43" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Service 5&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="84" width="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-45" parent="ecdvlNA3KvpTPgBAPyhw-43" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-46" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="84" width="294" x="777.98" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-47" parent="ecdvlNA3KvpTPgBAPyhw-46" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Service 6&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="84" width="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-48" parent="ecdvlNA3KvpTPgBAPyhw-46" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-49" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;gridSize=1,1;direction=south;strokeColor=#CCCCCC;" value="" vertex="1">
+          <mxGeometry height="374" width="964.98" x="119.02000000000001" y="866" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-50" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Feature 1&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="96" width="242.02" x="700" y="981" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-51" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=14;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" value="Learn more" vertex="1">
+          <mxGeometry height="24" width="108" x="700" y="1101" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-52" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.container_registry_image;" value="" vertex="1">
+          <mxGeometry height="288" width="288" x="240" y="909" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-53" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;gridSize=1,1;direction=south;strokeColor=#d79b00;fillColor=#ffe6cc;" value="" vertex="1">
+          <mxGeometry height="374" width="964.98" x="118.00000000000001" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-54" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Feature 2&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="96" width="242.02" x="240" y="1355" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-55" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=14;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" value="Learn more" vertex="1">
+          <mxGeometry height="24" width="108" x="240" y="1475" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-56" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.container_registry_image;" value="" vertex="1">
+          <mxGeometry height="288" width="288" x="654.02" y="1283" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-57" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;gridSize=1,1;direction=south;strokeColor=#CCCCCC;" value="" vertex="1">
+          <mxGeometry height="374" width="964.98" x="118" y="1614" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-58" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;About Us&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="96" width="242.02" x="698.98" y="1729" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-59" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=14;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" value="Learn more" vertex="1">
+          <mxGeometry height="24" width="108" x="698.98" y="1849" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-60" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.container_registry_image;" value="" vertex="1">
+          <mxGeometry height="288" width="288" x="238.98000000000002" y="1657" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-61" parent="1" style="fillColor=#4D4D4D;strokeColor=none;rounded=1;arcSize=50;sketch=0;hachureGap=4;pointerEvents=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" value="" vertex="1">
+          <mxGeometry height="16" width="30" x="1054.98" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-62" parent="ecdvlNA3KvpTPgBAPyhw-61" style="shape=ellipse;strokeColor=none;fillColor=#ffffff;sketch=0;hachureGap=4;pointerEvents=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" value="" vertex="1">
+          <mxGeometry height="12" relative="1" width="12" x="1" y="0.5" as="geometry">
+            <mxPoint x="-14" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-64" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;gridSize=1,1;direction=south;strokeColor=#CCCCCC;" value="" vertex="1">
+          <mxGeometry height="374" width="964.98" x="118" y="1988" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-65" parent="1" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#3399FF;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.video;" value="Background Video&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="335.17" width="574.56" x="304.5299999999999" y="2004.83" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#CCCCCC;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 18px; color: rgb(230, 230, 230);&quot;&gt;&lt;b&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 18px; color: rgb(230, 230, 230);&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 18px; color: rgb(230, 230, 230);&quot;&gt;&lt;b&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 18px; color: rgb(230, 230, 230);&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 18px; color: rgb(230, 230, 230);&quot;&gt;&lt;b&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="552" x="315.81" y="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-67" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;gridSize=1,1;direction=south;strokeColor=#CCCCCC;" value="" vertex="1">
+          <mxGeometry height="374" width="964.98" x="117.79" y="2362" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-68" parent="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;" value="Recent work" vertex="1">
+          <mxGeometry height="40" width="160" x="131" y="2388" as="geometry" />
+        </mxCell>
+        <UserObject label="Lorem ipsum description for this area" placeholders="1" name="Variable" id="ecdvlNA3KvpTPgBAPyhw-70">
+          <mxCell parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1">
+            <mxGeometry height="20" width="216" x="131" y="2422" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-71" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Image.svg;" value="" vertex="1">
+          <mxGeometry height="185.36" width="269.62" x="134.02" y="2445" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-72" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. E&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;iusmod tempor incididunt ut labore et dolore.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="94" width="285.98" x="134.02" y="2630" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-77" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Image.svg;" value="" vertex="1">
+          <mxGeometry height="185.36" width="269.62" x="457" y="2445" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-78" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. E&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;iusmod tempor incididunt ut labore et dolore.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="94" width="285.98" x="457" y="2630" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-79" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Image.svg;" value="" vertex="1">
+          <mxGeometry height="185.36" width="269.62" x="787" y="2445" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-80" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. E&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;iusmod tempor incididunt ut labore et dolore.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="94" width="285.98" x="787" y="2630" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-81" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;gridSize=1,1;direction=south;strokeColor=#CCCCCC;" value="" vertex="1">
+          <mxGeometry height="270" width="964.98" x="117.5" y="2736" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-96" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.iconGrid;strokeColor=#CCCCCC;gridSize=1,1;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="134" y="2803" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-82" parent="1" style="text;spacingTop=-5;fontSize=18;fontStyle=0" value="Site Name" vertex="1">
+          <mxGeometry height="20" width="94" x="180" y="2810" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-83" parent="1" style="text;spacingTop=-5;align=center" value="Site&#xa;Logo" vertex="1">
+          <mxGeometry height="32" width="40" x="134" y="2807" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Site description, company description" vertex="1">
+          <mxGeometry height="30" width="204" x="134.02" y="2838" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Address line 1&lt;div&gt;Address line 2&lt;/div&gt;&lt;div&gt;Address line 3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="204" x="137" y="2874" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Contact details 1 (ph)&lt;div&gt;Contact details 2 (email)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="204" x="137" y="2938" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;&lt;b&gt;COMPANY&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Home&lt;/div&gt;&lt;div&gt;Services&lt;/div&gt;&lt;div&gt;Work&lt;/div&gt;&lt;div&gt;Contact&lt;/div&gt;" vertex="1">
+          <mxGeometry height="99" width="204" x="497.99" y="2838" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-88" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;&lt;b&gt;ADDITIONAL INFO&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Social Links&lt;/div&gt;&lt;div&gt;Pricing&lt;/div&gt;&lt;div&gt;Etc&lt;/div&gt;&lt;div&gt;Etc&lt;/div&gt;" vertex="1">
+          <mxGeometry height="99" width="204" x="850.98" y="2829" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-92" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=light-dark(#ffffff, var(--ge-dark-color, #121212));fontColor=#666666;fontSize=17;align=left;spacingLeft=3;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Email*&lt;/font&gt;" vertex="1">
+          <mxGeometry height="17" width="217" x="137" y="2760" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-93" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" value="Subscribe" vertex="1">
+          <mxGeometry height="24" width="120" x="362.02" y="2756.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ecdvlNA3KvpTPgBAPyhw-94" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="885.98" x="134.02" y="2789" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
