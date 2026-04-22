@@ -1,33 +1,37 @@
 ---
 const items = [
-   {
+    {
       title: 'Home',
       path: '/',
-   },
-   {
-      title: 'Blog',
-      path: '/blog',
-   },
-   {
-      title: 'About',
-      path: '/about',
-   },
-   {
+    },
+    {
+      title: 'Services',
+      path: '/services',
+    },
+    {
+      title: 'Work',
+      path: '/work',
+    },
+    {
       title: 'Contact',
       path: '/contact',
-   },
+    },
+    {
+       title: 'Blog',
+       path: '/blog',
+    },
 ];
 ---
 
 <div>
    <div>
-      <ul class="flex">
+      <ul class="flex bg-zinc-200 dark:bg-gray-500">
          <li class="basis-2/5">
             <a href=""
                ><img
                   src="/logo.svg"
                   alt="Aptus Technica. Click for home."
-                  class="logo"
+                  class="logo h-12"
                /></a
             >
          </li>
@@ -38,6 +42,10 @@ const items = [
                </li>
             ))
          }
+         <li><button id="theme-toggle" class="px-4 py-2 bg-gray-200 dark:text-white dark:bg-gray-700 rounded-md">Toggle Theme</button></li>
       </ul>
    </div>
 </div>
+<script>
+  
+</script>

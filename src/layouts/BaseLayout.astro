@@ -15,6 +15,31 @@ import Navbar from "../components/Navbar.astro";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{frontmatter?.title || pageTitle}</title>
+    <script is:inline>
+      const STORAGE_KEY = "aptusTecTheme";
+      const pageElement = document.documentElement;
+
+      function toggleAttributeValue(element, attr, valueA, valueB, storageKey) {
+        console.log("toggleAttributeValue func: button clicked!!!")
+        const current = element.getAttribute(attr);
+        const next = current === valueA ? valueB : valueA;
+        element.setAttribute(attr, next);
+        localStorage.setItem(storageKey, next);
+      }
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      localStorage[STORAGE_KEY] === "dark" ||
+        (!(STORAGE_KEY in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches) ? pageElement.setAttribute("data-theme", "dark") : pageElement.setAttribute("data-theme", "light");
+
+ 
+      window.addEventListener("DOMContentLoaded", () => {
+        const themeToggleBtn = document.querySelector('#theme-toggle');
+
+        themeToggleBtn?.addEventListener('click', () => {
+          toggleAttributeValue(document.documentElement, "data-theme", "dark", "light", STORAGE_KEY);
+        });
+      }, false);
+
+    </script>
   </head>
   <body>
     <Navbar />
