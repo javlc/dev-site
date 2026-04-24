@@ -4,25 +4,18 @@ layout: ../layouts/BaseLayout.astro
 
 ---
 
-import Button from "../components/Button.astro";
-
+import ButtonConfetti from "../components/ButtonConfetti.astro";
 
 <div class="grid place-items-center h-screen content-center">
- <div class="py-2 px-4 bg-red-500 text-white font-semibold rounded-lg shadow-md">
+  <div class="py-2 px-4 bg-red-500 dark:bg-red-900 text-white font-semibold rounded-lg shadow-md my-2">
   Tailwind classes also work in Markdown!
- </div>
+  </div>
+  <ButtonConfetti>Tailwind Button in Markdown!</ButtonConfetti>
 
- <div class="grid place-items-center h-screen content-center">
-  <Button>Tailwind Button in Markdown!</Button>
-  <a href="/" class="p-4 underline">
-    Go home...
-  </a>
-</div>
-
- <a
+  <a
   href="/"
   class="p-4 underline hover:text-purple-500 transition-colors ease-in-out duration-200"
- >
+  >
   Go home
- </a>
+  </a>
 </div>

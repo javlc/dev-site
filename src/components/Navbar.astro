@@ -1,4 +1,6 @@
 ---
+import ThemeIcon from "../../public/themeIcon.svg";
+
 const items = [
     {
       title: 'Home',
@@ -42,10 +44,19 @@ const items = [
                </li>
             ))
          }
-         <li><button id="theme-toggle" class="px-4 py-2 bg-gray-200 dark:text-white dark:bg-gray-700 rounded-md">Toggle Theme</button></li>
+         <li><button id="theme-toggle" class="text-white font-semibold rounded-lg shadow-md hover:bg-primary-dark focus:outline-none focus:ring-2 dark:focus:ring-2 focus:ring-primary-lighter dark:focus:ring-primary focus:ring-opacity-75"><ThemeIcon /></button></li>
       </ul>
    </div>
 </div>
 <script>
-  
+
 </script>
+<style is:global>
+  [data-theme] #theme-toggle:hover > svg {
+    fill: white;
+  }
+  [data-theme="light"] #theme-toggle > svg > .sun,
+  [data-theme="dark"] #theme-toggle > svg > .moon {
+    fill: none;
+  }
+</style>

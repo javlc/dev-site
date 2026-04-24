@@ -1,22 +1,12 @@
 ---
-// Click button, get confetti!
-// Styled by Tailwind :)
+// Button.astro
+interface Props {
+  id?: string;
+  color?: string;
+}
+const {id, color} = Astro.props
 ---
-
-<button id="conffetti" class="py-2 px-4 bg-purple-500 text-white font-semibold rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-75"
+<button id={id || undefined} class="py-2 px-4 bg-primary text-white font-semibold rounded-lg shadow-md hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-lighter focus:ring-opacity-75 cursor-pointer"
 >
 	<slot />
 </button>
-
-<script>
-	import confetti from 'canvas-confetti';
-	const button = document.querySelector('#conffetti');
-  
-
-  async function hurlConfetti() {
-    await confetti()
-  }
-	if (button) {
-		button.addEventListener('click', () => hurlConfetti());
-	}
-</script>

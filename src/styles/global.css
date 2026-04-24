@@ -2,3 +2,22 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+@theme {
+  --color-primary: oklch(0.6602 0.229356 35.4025);
+  --color-primary-light: oklch(0.7101 0.1883 39.79);
+  --color-primary-lighter: oklch(0.7608 0.148265 40.8182);
+  --color-primary-dark: oklch(0.5472 0.1884 35.78);
+  --color-primary-darker: oklch(0.4591 0.155079 36.599);
+
+  --color-secondary: oklch(0.4904 0.1269 247.68);
+  --color-secondary-light: oklch(0.5447 0.1067 243.21);
+  --color-secondary-lighter: oklch(0.6261 0.0932 240.89);
+  --color-secondary-dark: oklch(0.409 0.1043 247.35);
+  --color-secondary-darker: oklch(0.3464 0.0873 247.13);
+
+  --color-secondary2: oklch(0.8158 0.2459 136.72);
+  --color-secondary2-light: oklch(0.8348 0.2211 134.08);
+  --color-secondary2-lighter: oklch(0.8617 0.1907 132.77);
+  --color-secondary2-dark: oklch(0.6757 0.2028 136.5);
+  --color-secondary2-darker: oklch(0.5664 0.1692 136.24);
+}

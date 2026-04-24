@@ -1,8 +1,8 @@
 ---
-// import '../styles/global.css';
 // Layout import
 import BaseLayout from '@layouts/BaseLayout.astro';
 // Component Imports
+import ButtonConfetti from '@components/ButtonConfetti.astro';
 import Button from '@components/Button.astro';
 
 // Full Astro Component Syntax:
@@ -12,7 +12,7 @@ const title = 'My Astro + TailwindCSS';
 
 <BaseLayout pageTitle={title}>
    <div class="grid h-screen place-items-center content-center">
-      <Button>Tailwind Button in Astro!</Button>
+      <ButtonConfetti>Tailwind Button in Astro!</ButtonConfetti>
       <a href="/markdown-page" class="p-4 underline"
          >Markdown is also supported...</a
       >
