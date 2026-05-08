@@ -34,7 +34,7 @@ import Navbar from "../components/Navbar.astro";
       
       document.addEventListener("astro:before-swap", (event) => {
         event.newDocument.documentElement.dataset.theme =
-          localStorage.getItem(STORAGE_KEY) ? "dark" : "light";
+          localStorage.getItem(STORAGE_KEY) ? localStorage.getItem(STORAGE_KEY) : window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
       });
 
       document.addEventListener("astro:page-load", () => {
