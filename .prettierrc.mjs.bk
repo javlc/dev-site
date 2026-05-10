@@ -1,4 +1,9 @@
-{
+/**
+ * @see https://prettier.io/docs/configuration
+ * @type {import("prettier").Config}
+ */
+
+const config = {
   "trailingComma": "all",
   "tabWidth": 2,
   "semi": true,
@@ -6,16 +11,11 @@
   "plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
   "overrides": [
     {
-      "files": ".prettierrc",
-      "options": {
-        "parser": "json"
-      }
-    },
-    {
       "files": "*.astro",
       "options": {
         "parser": "astro"
       }
-    }
-  ]
-}
+    },
+  ],
+};
+export default config;

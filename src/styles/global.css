@@ -25,6 +25,7 @@
   --color-success: oklch(0.8694 0.2744 144.66); 
   --color-warning: oklch(82.8% 0.189 84.429); /* amber-400 */
   --color-danger: oklch(63.7% 0.237 25.331); /* red-500 */
-  --color-white: oklch(0.976 0.0143 57.59); /* seashell */
+  --color-aptec-white: oklch(92.9% 0.013 255.508); /* slate-200 */
+  --color-aptec-black: oklch(27.9% 0.041 260.031); /* slate-800 */
 }
 
