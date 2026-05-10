@@ -4,12 +4,12 @@ import '../styles/global.css';
 const { content } = Astro.props;
 const { pageTitle, frontmatter } = Astro.props;
 
-import { ClientRouter } from "astro:transitions";
+import { ClientRouter } from 'astro:transitions';
 
-import Navbar from "../components/Navbar.astro";
+import Navbar from '@components/Navbar.astro';
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -18,33 +18,50 @@ import Navbar from "../components/Navbar.astro";
     <meta name="generator" content={Astro.generator} />
     <title>{frontmatter?.title || pageTitle}</title>
     <script is:inline>
-      const STORAGE_KEY = "aptusTecTheme";
+      const STORAGE_KEY = 'aptusTecTheme';
       const pageElement = document.documentElement;
 
       function toggleAttributeValue(element, attr, valueA, valueB, storageKey) {
-        console.log("toggleAttributeValue func: button clicked!!!")
+        console.log('toggleAttributeValue func: button clicked!!!');
         const current = element.getAttribute(attr);
         const next = current === valueA ? valueB : valueA;
         element.setAttribute(attr, next);
         localStorage.setItem(storageKey, next);
       }
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-      localStorage[STORAGE_KEY] === "dark" ||
-        (!(STORAGE_KEY in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches) ? pageElement.setAttribute("data-theme", "dark") : pageElement.setAttribute("data-theme", "light");
-      
-      document.addEventListener("astro:before-swap", (event) => {
-        event.newDocument.documentElement.dataset.theme =
-          localStorage.getItem(STORAGE_KEY) ? localStorage.getItem(STORAGE_KEY) : window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      localStorage[STORAGE_KEY] === 'dark' ||
+      (!(STORAGE_KEY in localStorage) &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ? pageElement.setAttribute('data-theme', 'dark')
+        : pageElement.setAttribute('data-theme', 'light');
+
+      document.addEventListener('astro:before-swap', (event) => {
+        event.newDocument.documentElement.dataset.theme = localStorage.getItem(
+          STORAGE_KEY,
+        )
+          ? localStorage.getItem(STORAGE_KEY)
+          : window.matchMedia('(prefers-color-scheme: dark)').matches
+            ? 'dark'
+            : 'light';
       });
 
-      document.addEventListener("astro:page-load", () => {
-        const themeToggleBtn = document.querySelector('#theme-toggle');
+      document.addEventListener(
+        'astro:page-load',
+        () => {
+          const themeToggleBtn = document.querySelector('#theme-toggle');
 
-        themeToggleBtn?.addEventListener('click', () => {
-          toggleAttributeValue(document.documentElement, "data-theme", "dark", "light", STORAGE_KEY);
-        });
-      }, false);
-
+          themeToggleBtn?.addEventListener('click', () => {
+            toggleAttributeValue(
+              document.documentElement,
+              'data-theme',
+              'dark',
+              'light',
+              STORAGE_KEY,
+            );
+          });
+        },
+        false,
+      );
     </script>
     <ClientRouter />
   </head>

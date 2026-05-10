@@ -1,63 +1,65 @@
 ---
-import ThemeIcon from "../../public/themeIcon.svg";
-import Button from "../components/Button.astro";
+import ThemeIcon from '../../public/themeIcon.svg';
+import Button from '@components/Button.astro';
 
 const items = [
-    {
-      title: 'Home',
-      path: '/',
-    },
-    {
-      title: 'Services',
-      path: '/services',
-    },
-    {
-      title: 'Work',
-      path: '/work',
-    },
-    {
-      title: 'Contact',
-      path: '/contact',
-    },
-    {
-       title: 'Blog',
-       path: '/blog',
-    },
+  {
+    title: 'Home',
+    path: '/',
+  },
+  {
+    title: 'Services',
+    path: '/services',
+  },
+  {
+    title: 'Work',
+    path: '/work',
+  },
+  {
+    title: 'Contact',
+    path: '/contact',
+  },
+  {
+    title: 'Blog',
+    path: '/blog',
+  },
 ];
 ---
 
 <div>
-   <div>
-      <ul class="flex bg-zinc-200 dark:bg-zinc-500 items-center mx-auto">
-         <li class="basis-2/5 m-2">
-            <a href="/"
-               ><img
-                  src="/logo.svg"
-                  alt="Aptus Technica. Click for home."
-                  class="logo h-12"
-               /></a
-            >
-         </li>
-         {
-            items.map((item) => (
-               <li class="mx-1">
-                  <Button href={item.path}>{item.title}</Button>
-               </li>
-            ))
-         }
-         <li class="ml-2"><button id="theme-toggle" class="  text-white font-semibold rounded-lg shadow-md hover:bg-primary-dark focus:outline-none focus:ring-2 dark:focus:ring-2 p-2 focus:ring-primary-lighter dark:focus:ring-primary focus:ring-opacity-75"><ThemeIcon /></button></li>
-      </ul>
-   </div>
+  <div>
+    <ul class="mx-auto flex items-center bg-zinc-200 dark:bg-zinc-500">
+      <li class="m-2 basis-2/5">
+        <a href="/"
+          ><img
+            src="/logo.svg"
+            alt="Aptus Technica. Click for home."
+            class="logo h-12"
+          /></a
+        >
+      </li>
+      {
+        items.map((item) => (
+          <li class="mx-1">
+            <Button href={item.path}>{item.title}</Button>
+          </li>
+        ))
+      }
+      <li class="ml-2">
+        <button
+          id="theme-toggle"
+          class="hover:bg-primary-dark focus:ring-primary-lighter dark:focus:ring-primary focus:ring-opacity-75 rounded-lg p-2 font-semibold text-white shadow-md focus:ring-2 focus:outline-none dark:focus:ring-2"
+          ><ThemeIcon /></button>
+      </li>
+    </ul>
+  </div>
 </div>
-<script>
-
-</script>
 <style is:global>
   [data-theme] #theme-toggle:hover > svg {
     fill: white;
   }
-  [data-theme="dark"] #theme-toggle > svg > .sun,
-  [data-theme="light"] #theme-toggle > svg > .moon {
+  [data-theme='dark'] #theme-toggle > svg > .sun,
+  [data-theme='light'] #theme-toggle > svg > .moon {
     fill: none;
   }
 </style>
