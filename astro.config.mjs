@@ -7,6 +7,11 @@ import mdx from '@astrojs/mdx';
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      watch: {
+        usePolling: true,
+      },
+    },
   },
   integrations: [mdx()],
 });
