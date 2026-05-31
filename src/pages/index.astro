@@ -2,18 +2,27 @@
 // Layout import
 import BaseLayout from '@layouts/BaseLayout.astro';
 // Component Imports
-import ButtonConfetti from '@components/ButtonConfetti.astro';
+import Hero from '@components/Hero.astro';
+import Services from '@components/Services.astro';
+import Feature from '@components/Feature.astro';
+import About from '@components/About.astro';
+import Video from '@components/Video.astro';
+import RecentWork from '@components/RecentWork.astro';
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
-const title = 'My Astro + TailwindCSS';
+const title = 'Aptus Technica - your solutions ally';
 ---
 
 <BaseLayout pageTitle={title}>
-  <div class="grid h-screen place-items-center content-center">
-    <ButtonConfetti>Tailwind Button in Astro!</ButtonConfetti>
-    <a href="/markdown-page" class="p-4 underline"
-      >Markdown is also supported...</a
-    >
+  <div class="grid h-svh place-items-center content-center">
+    <Hero />
+    <Services />
+    <Feature name={"FEATURE 1"} />
+    <Feature name={"FEATURE 2"} />
+    <Feature name={"FEATURE 3"} />
+    <About />
+    <Video />
+    <RecentWork />
   </div>
 </BaseLayout>
